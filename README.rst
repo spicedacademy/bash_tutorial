@@ -4,13 +4,22 @@
 The Bash Command Line
 =====================
 
+**Note**:
+This tutorial was adapted from the original `Bash tutorial <https://github.com/krother/bash_tutorial>`_
+by **Dr. Kristian Rother (© 2010)**, which was published under the
+Creative Commons Attribution Share-alike License 4.0.
+
+You can find the full sources on `https://github.com/krother/bash_tutorial <https://github.com/krother/bash_tutorial>`__.
+
+Introduction
++++++++++++++++++++++++++
+
 This tutorial introduces **bash**, a Unix shell and command line language
 native to most Linux distributions as well as macOS. In this interactive
 tutorial, you can learn commands to navigate directories,
 manipulate files, and run programs.
 If you have no previous experience with Unix-like systems or only know
 a few commands but would like to know more, this tutorial is a great start.
-
 
 **Note**: *This tutorial was originally prepared for Ubuntu Linux, but it works
 on MacOS, Cygwin, Windows Subsystem for Linux (WSL), and Git bash,
@@ -122,11 +131,10 @@ then the fourth character would be the letter `A`.
 
 :raw-html:`<br />`
 
-.. hint::
-
-   When typing names of directories or files,
-   press ``[TAB]`` after the first few characters.
-   Unix tries to guess what you are typing.
+**Hint**:
+When typing names of directories or files,
+press ``[TAB]`` after the first few characters.
+Unix tries to guess what you are typing.
 
 
 2. Edit text files
@@ -146,9 +154,8 @@ its contents, use the command
 
     less <filename>
 
-.. hint::
-
-   Press ``q`` to leave the display mode.
+**Hint**:
+Press ``q`` to leave the display mode.
 
 Edit text files
 --------------------
@@ -171,17 +178,6 @@ The **sixth character** is the letter following the control key for
 saving, or "writing out" a file in *nano*.
 
 :raw-html:`<br />`
-
-.. hint::
-
-   If you want to know more about a particular command, type
-
-   .. code:: bash
-
-       man <command>
-
-   You get shown a help page that you can leave by pressing 'q'.
-
 
 3. Copy and remove files
 +++++++++++++++++++++++++
@@ -212,10 +208,6 @@ Type ``ls -l solution/*`` to points towards the solution.
 
 :raw-html:`<br />`
 
-.. hint::
-
-  What does the ``*`` symbol mean?
-
 Removing files
 -------------------
 
@@ -238,33 +230,21 @@ deleting those that contain a ``Y``.
 
 :raw-html:`<br />`
 
-.. hint::
+**Hint:**
 
-   To remove an empty directory, you can use
-
-   .. code:: bash
-
-      rmdir <directory name>
-
-   The command
-
-   .. code:: bash
-
-      rm -r <directory name>
-
-   deletes a directory and everything in it.
+To remove an empty directory, you can use the ``rmdir <directory name>``
+command, or ``rm -rf <directory name>`` to deletes a directory
+with anything inside it.
 
 :raw-html:`<br />`
 
-.. warning::
-
-   On Unix, it is not possible to undelete files!
-
-   This makes removing files with the ``*`` symbol **very** dangerous,
-   because you could wipe out everything
-   with a single command
-   (e.g. if you type the wrong directory by accident).
-   Backups become an even better idea after learning this command.
+**Warning!**
+On Unix, it is not possible to undelete files!
+This makes removing files with the ``*`` symbol **very** dangerous,
+because you could wipe out everything
+with a single command
+(e.g. if you type the wrong directory by accident).
+Backups become an even better idea after learning this command.
 
 4. Python Interpreter
 +++++++++++++++++++++++++
@@ -284,11 +264,3 @@ followed by the name of the script:
     python file.py
 
 The solution to the **final character** will be printed to the console.
-
-
-**Note**:
-This tutorial was adapted from the original `Bash tutorial <https://github.com/krother/bash_tutorial>`_
-by **Dr. Kristian Rother (© 2010)**, which was published under the
-Creative Commons Attribution Share-alike License 4.0.
-
-You can find the full sources on `https://github.com/krother/bash_tutorial <https://github.com/krother/bash_tutorial>`__.
