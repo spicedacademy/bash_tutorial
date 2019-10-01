@@ -239,6 +239,7 @@ with anything inside it.
 :raw-html:`<br />`
 
 **Warning!**
+
 On Unix, it is not possible to undelete files!
 This makes removing files with the ``*`` symbol **very** dangerous,
 because you could wipe out everything
