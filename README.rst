@@ -11,15 +11,13 @@ manipulate files, and run programs.
 If you have no previous experience with Unix-like systems or only know
 a few commands but would like to know more, this tutorial is a great start.
 
-.. note::
 
-   *This tutorial was originally prepared for Ubuntu Linux, but it works
-    on MacOS, Cygwin, Windows Subsystem for Linux (WSL), and Git bash,
-    given that Python 3 is installed on your system.*
+**Note**: *This tutorial was originally prepared for Ubuntu Linux, but it works
+on MacOS, Cygwin, Windows Subsystem for Linux (WSL), and Git bash,
+given that Python 3 is installed on your system.*
 
-.. container:: banner linux
-
-   Goal
+Goal
++++++++++++++++++++++++++
 
 In this tutorial, you will be looking for a word with 11 characters:
 
@@ -28,21 +26,20 @@ In this tutorial, you will be looking for a word with 11 characters:
 
 All characters are hidden in the exercises below.
 
-.. container:: banner linux
-
-   Preparations
+Preparations
++++++++++++++++++++++++++
 
 All exercises can be solved using a **Unix-like terminal** (including MacOS terminal)
 as well as **Windows Subsystem for Linux (WSL)** and **git Bash** for Windows.
 
--  download the file :download:`bash_tutorial.zip`
--  unzip the file
--  open a terminal and navigate into the *bash_tutorial* directory
+-  Open a bash terminal and navigate to an appropriate workspace / directory.
+-  Clone the repository: ``git clone https://github.com/spicedacademy/bash_tutorial.git``
+-  Once cloned, navigate into the *bash_tutorial* directory.
 
 .. figure:: images/preparations.png
 
-Directories and files
-+++++++++++++++++++++
+1. Directories and files
++++++++++++++++++++++++++
 
 Navigating directories
 ---------------------------
@@ -132,8 +129,8 @@ then the fourth character would be the letter `A`.
    Unix tries to guess what you are typing.
 
 
-Edit text files
-+++++++++++++++
+2. Edit text files
++++++++++++++++++++++++++
 
 Please use ``cd ..`` to go back to the top directory of the tutorial
 material. Then, change to the directory ``exercise_2``.
@@ -186,8 +183,8 @@ saving, or "writing out" a file in *nano*.
    You get shown a help page that you can leave by pressing 'q'.
 
 
-Copy and remove files
-+++++++++++++++++++++
+3. Copy and remove files
++++++++++++++++++++++++++
 
 Please navigate inside the ``exercise_3`` directory.
 
@@ -269,8 +266,8 @@ deleting those that contain a ``Y``.
    (e.g. if you type the wrong directory by accident).
    Backups become an even better idea after learning this command.
 
-Python Interpreter
-++++++++++++++++++++
+4. Python Interpreter
++++++++++++++++++++++++++
 
 Please go to the directory ``exercise_4``.
 
@@ -289,10 +286,9 @@ followed by the name of the script:
 The solution to the **final character** will be printed to the console.
 
 
-.. note::
+**Note**:
+This tutorial was adapted from the original `Bash tutorial <https://github.com/krother/bash_tutorial>`_
+by **Dr. Kristian Rother (© 2010)**, which was published under the
+Creative Commons Attribution Share-alike License 4.0.
 
-   This tutorial was adapted from the original `Bash tutorial <https://github.com/krother/bash_tutorial>`_
-   by **Dr. Kristian Rother (© 2010)**, which was published under the
-   Creative Commons Attribution Share-alike License 4.0.
-
-   You can find the full sources on `https://github.com/krother/bash_tutorial <https://github.com/krother/bash_tutorial>`__.
+You can find the full sources on `https://github.com/krother/bash_tutorial <https://github.com/krother/bash_tutorial>`__.
