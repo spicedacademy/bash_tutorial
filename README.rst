@@ -116,7 +116,7 @@ to obtain the corresponding character. For example, if the file size is 65 bytes
 then the fourth character would be the letter `A`.
 
 
-.. figure:: ASCII-Table-wide.svg
+.. figure:: images/ASCII-Table-wide.svg
 
 *table of ASCII characters, Public Domain*
 
