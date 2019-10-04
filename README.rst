@@ -54,19 +54,22 @@ Navigating directories
 ---------------------------
 
 The **first character** is hidden in a file somewhere in the ``exercise1/``
-directory tree. Use the commands
+directory tree. Use the command
 
 .. code:: bash
 
     cd <directory_name>
 
-(do not type the pointy brackets, just insert the directory name) and
+to move from one directory to the next. (do not type the pointy brackets,
+just insert the directory name after the ``cd`` command.)
+
+Once you've changed to a new directory, you can use
 
 .. code:: bash
 
     ls
 
-to move from one directory to the next. Look through subdirectories
+list the directory's contents. Look through subdirectories
 until you find one with the name ``solution_1.1`` and list its contents.
 If you went to a wrong directory, you can go back one level by typing:
 
