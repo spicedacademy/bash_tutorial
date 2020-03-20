@@ -7,7 +7,7 @@ The Bash Command Line
 **Note**:
 This tutorial was adapted from the original `Bash tutorial <https://github.com/krother/bash_tutorial>`_
 by **Dr. Kristian Rother (© 2010)**, which was published under the
-Creative Commons Attribution Share-alike License 4.0.
+Creative Commons Attribution Share-alike License 4.0. Adapted by **Paul Wlodkowski** (2019).
 
 You can find the full sources on `https://github.com/krother/bash_tutorial <https://github.com/krother/bash_tutorial>`__.
 
