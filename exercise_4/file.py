@@ -1,1 +1,1 @@
-print(f'The final character is "{chr(83)}"!')
+print(f'The final character is "{chr(83)}". Congratulations!')
